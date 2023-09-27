@@ -3,7 +3,6 @@ mutation {
     id: 1
     fullname: "Bradley Ball",
     title: "Microsoft - Sr. FastTrack Azure Engineer",
-    picture_url: "https://sessionize.com/image/8011-200o200o2-3d-b80c-4768-8895-5e9a94d024f8.1541f97f-6eaf-4af6-ae87-5a3f5c00662b.jpg",
     biography: "Bradley Ball is a Sr. FastTrack Azure Engineer on the Microsoft CXP Product Group. He is a current Microsoft MVP Reconnect member and former MVP. Bradley spent 8 years working as a Defense contractor for clients such as the U.S. Army and The Executive Office of the President of the United States, was the Data Platform Practice Manager for Pragmatic Works Consulting, and a Sr. Consultant for Microsoft Premier Support for Developers. He has presented at many SQL Saturdays, for PASS SSUG’s across the US from California to Puerto Rico to New Hampshire, SQL Rally, DevConnections, SQLBits 2015, TechReady 24, SQL Live 360 2011-2019, SQL Intersections 2019 - 2021, & the PASS Summit 2011-2015. He wrote Chapter 14 Page & Row Compression for PRO SQL Server 2012 Best Practices and he can be found blogging on http://www.sqlballs.com about anything else that interests him."
   })
   {
@@ -20,7 +19,8 @@ mutation {
 * Can you backup and restore to SQL Server from SQL MI?
 * How does High Availability & Disaster Recovery work?
 
-In this demo heavy session, we will answer these questions (and more)!"""
+In this demo heavy session, we will answer these questions (and more)!""",
+    is_published: true
   })
   {
     id

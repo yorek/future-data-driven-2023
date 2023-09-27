@@ -1,0 +1,20 @@
+mutation {
+  createSpeaker (item: { 
+    id: 3
+    fullname: "Davide Mauri",
+    title: "Microsoft, Principal Product Manager",
+    biography: "Azure Data Platform MVP for 12 years in a row, now Product Manager in Azure SQL team, focusing on developer experience. Developer at heart, heavy metal lover; once a biker, now waiting for kids to grow old to start to travel the world again."
+  })
+  {
+    id
+  }
+  createSession(item: {
+    speaker_id: 3,
+    title: "From databases to API: an efficient solution both on-premises and in Azure",
+    abstract: """Data API builder turns Azure Databases into REST a GraphQL API so that you can have the backend for your next modern application done in just a few minutes instead of days. With full support to authentication and authorization, integrated with Static Web Apps and easily scalable up and out – using API Management – Data API builder is something you really want to look at. Available both on Azure and on-premises, and Open Source, this is very likely to become your favorite tool. Come and learn everything about it!""",
+    is_published: true
+  })
+  {
+    id
+  }
+}
