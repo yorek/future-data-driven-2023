@@ -53,7 +53,7 @@ Azure SQL Managed Instance is incredibly popular. However, if you are unfamiliar
 * How does High Availability & Disaster Recovery work?
 
 In this demo heavy session, we will answer these questions (and more)!'),
-(2, 'Latest innovations in Azure SQL Edge to Clou', 2, 1, 'bw4567', 'Come learn about all the latest innovations for SQL edge to cloud'),
+(2, 'Latest innovations in Azure SQL Edge to Cloud', 2, 1, 'bw4567', 'Come learn about all the latest innovations for SQL edge to cloud'),
 (3, 'From databases to API: an efficient solution both on-premises and in Azure', 3, 1, 'dm1234', 'Data API builder turns Azure Databases into REST a GraphQL API so that you can have the backend for your next modern application done in just a few minutes instead of days. With full support to authentication and authorization, integrated with Static Web Apps and easily scalable up and out – using API Management – Data API builder is something you really want to look at. Available both on Azure and on-premises, and Open Source, this is very likely to become your favorite tool. Come and learn everything about it!')
 go
 
