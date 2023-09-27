@@ -14,7 +14,7 @@ export default function Root() {
   return (
     <>
       <div id="header">
-        <h1>Session Navigator</h1>
+        <h1>Session Navigator for FDD 2023</h1>
         <p>There are {sessionsCount} session stored.</p>
       </div>
       <div id="user-info">
