@@ -83,7 +83,7 @@
           "role": "anonymous",
           "actions": [
             {
-              "action": "*",
+              "action": "read",
               "policy": {
                 "database": "@item.is_published eq true"
               }
@@ -98,6 +98,14 @@
               "policy": {
                 "database": "@item.owner_id eq @claims.userId"
               }
+            }
+          ]
+        },
+        {
+          "role": "administrator",
+          "actions": [
+            {
+              "action": "*"              
             }
           ]
         }
