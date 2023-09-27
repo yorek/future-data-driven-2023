@@ -1,0 +1,12 @@
+mutation {
+  createSession(item: {
+    speaker_id: 1,
+    title: "Some amazing session title here!",
+    abstract: """Even more amazing session abstract""",
+    is_published: false
+    owner_id: "jd8923"
+  })
+  {
+    id
+  }
+}

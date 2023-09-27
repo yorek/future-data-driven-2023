@@ -1,0 +1,11 @@
+mutation {
+  createSpeaker (item: { 
+    id: 1
+    fullname: "John Doe",
+    title: "Data Platform Engineer",
+    biography: "Amazing biography here"
+  })
+  {
+    id
+  }  
+}
