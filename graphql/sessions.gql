@@ -1,0 +1,13 @@
+query {
+  sessions {
+    items {
+      id
+      title
+      abstract
+      speaker {
+        id
+        fullname
+      }
+    }
+  }
+}

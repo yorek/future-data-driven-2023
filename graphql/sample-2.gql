@@ -1,0 +1,21 @@
+mutation {
+  createSpeaker (item: { 
+    id: 2
+    fullname: "Koen Verbeeck",
+    title: "Senior Consultant @ AE - Data Platform MVP",
+    picture_url: "https://sessionize.com/image/e5fd-200o200o2-w5wTMTsK2aCkkvMA7kdL7m.jpg",
+    biography: "Koen Verbeeck is a data professional working at AE. He helps organizations to get insight in their data and to improve their analytics solutions. Koen has over a decade of experience in developing data warehouses, models and reports using the Microsoft data platform. Since 2017 Koen is a Microsoft Data Platform MVP. He has a blog at http://www.sqlkover.com, writes articles for MSSQLTips.com and is a frequent speaker at SQL Server events."
+  })
+  {
+    id
+  }
+  createSession(item: {
+    speaker_id: 2,
+    title: "How I saved 80% on my Azure Data Factory Costs",
+    abstract: """Azure Data Factory (ADF) is the tool in the Azure cloud for creating your data pipelines. It allows you to move and transform data from a multitude of sources to as many possible destinations. However, like most cloud services, it is not free. If you're not careful, you might end up with an unexpected high bill at the end of the month.
+In this session, I'll give an overview of the ADF building blocks and explain a couple of design patterns to save you money. At the end, you will know which pitfalls to avoid, and how to keep your CFO happy."""
+  })
+  {
+    id
+  }
+}

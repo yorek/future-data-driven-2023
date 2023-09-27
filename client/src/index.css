@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+  color: #121212;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+#sessions {
+  width: 100%;
+}
+
+#sessions ul {
+  list-style: none;
+  padding-left: 0px;;
+}
+
+#sessions p {
+  text-align: center;
+}
