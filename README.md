@@ -6,6 +6,8 @@ Demo for the session
 
 Data API builder turns Azure Databases into REST a GraphQL API so that you can have the backend for your next modern application done in just a few minutes instead of days. With full support to authentication and authorization, integrated with Static Web Apps and easily scalable up and out – using API Management – Data API builder is something you really want to look at. Available both on Azure and on-premises, and Open Source, this is very likely to become your favorite tool. Come and learn everything about it!
 
+![Architecture Diagram](./docs/react-dab-sql.png)
+
 ## Run the demo locally
 
 Make sure you have Node and [Static Web Apps CLI](https://azure.github.io/static-web-apps-cli/docs/use/install) installed. Then run:
